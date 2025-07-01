@@ -1,0 +1,66 @@
+form {
+    text-align: center;
+    align-items: center;
+    background-color: #64acd5;
+    width: 750px;
+    height: 725px;
+    border-radius: 25px;
+}
+
+form input {
+    width: 600px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #2684BA;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.part {
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 24px;
+    color: whitesmoke;
+    line-height: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 72px;
+}
+
+.emailcard {
+    background-color: #64acd5;
+    width: 750px;
+    height: 725px;
+    border-radius: 25px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.submit a:hover {
+    background-color: whitesmoke;
+    color: #2684BA;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+span {
+    font-size: 28px;
+}
+
+.text {
+    padding-left: 20px;
+    color: whitesmoke;
+}
