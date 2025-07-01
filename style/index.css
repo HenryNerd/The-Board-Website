@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
 }
 
-.hero {
+.title {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,11 +14,11 @@ body {
   text-align: center;
 }
 
-.hero h1 {
+.title h1 {
     font-size: 128px;
     line-height: 0px;
 }
 
-.hero h2 {
+.title h2 {
     font-size: 48px;
 }
