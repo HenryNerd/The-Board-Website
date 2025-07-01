@@ -1,0 +1,32 @@
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 72px;
+}
+
+.card {
+    background-color: #2684BA;
+    color: whitesmoke;
+    width: 98%;
+    height: 165px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+
+.card h2 {
+    font-size: 36px;
+    line-height: 15px;
+}
+
+.card span {
+    font-size: 18px;
+}
+
+.card button {
+    font-size: 24px;
+    width: 400px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 10px;
+}
