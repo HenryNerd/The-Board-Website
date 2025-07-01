@@ -1,0 +1,35 @@
+.card {
+    background-color: #64acd5;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    justify-items: center;
+    align-items: start;
+    margin: 40px auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.cardz {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    justify-items: center;
+    align-items: start;
+    margin: 40px auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 72px;
+}
