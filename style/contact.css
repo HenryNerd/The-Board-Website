@@ -1,66 +1,104 @@
-form {
-    text-align: center;
-    align-items: center;
-    background-color: #64acd5;
-    width: 750px;
-    height: 725px;
-    border-radius: 25px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+    color: whitesmoke;
 }
 
-form input {
-    width: 600px;
-    height: 45px;
-    font-size: 24px;
-    background-color: #2684BA;
-    color: whitesmoke;
-    border: 0px;
-    border-radius: 15px;
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem;
+    background: transparent;
+}
+
+form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
     text-align: center;
+}
+
+.name-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .part {
-    padding-bottom: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
 }
 
 label {
-    font-size: 24px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #333;
+    border: none;
     color: whitesmoke;
-    line-height: 40px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+textarea {
+    resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+input[type="submit"] {
+    background-color: #2684BA;
     color: whitesmoke;
-    font-size: 72px;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
 }
 
-.emailcard {
-    background-color: #64acd5;
-    width: 750px;
-    height: 725px;
-    border-radius: 25px;
-}
-
-.cards {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
-
-.submit a:hover {
+input[type="submit"]:hover {
     background-color: whitesmoke;
     color: #2684BA;
 }
 
-h2 {
-    font-size: 28px;
+.emailcard {
+    width: 100%;
+    max-width: 700px;
+    padding: 1rem 2rem;
+    background: transparent;
+    text-align: center;
 }
 
-span {
-    font-size: 28px;
+.emailcard h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.text {
-    padding-left: 20px;
-    color: whitesmoke;
+.emailcard span {
+    font-size: 1.2rem;
 }
