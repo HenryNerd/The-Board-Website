@@ -1,11 +1,6 @@
-.button-container {
-    text-align: center;
-    margin: 30px 0;
-}
-
 .button {
     display: inline-block;
-    background-color: #007acc;
+    background-color: #62c9ff;
     color: white;
     padding: 12px 24px;
     margin: 10px;
@@ -16,11 +11,35 @@
 }
 
 .button:hover {
-    background-color: #005fa3;
+    background-color: #62c9ff;
 }
 
 h1 {
     text-align: center;
     color: whitesmoke;
     font-size: 72px;
+}
+
+.document {
+    background-color: #005fa3;
+    width: 650px;
+    text-align: center;
+    height: 625px;
+    border-radius: 20px;
+}
+
+.document h2 {
+    font-size: 46px;
+
+}
+
+iframe {
+    padding-bottom: 15px;
+}
+
+.documents {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
 }
