@@ -1,16 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #1e1e1e;
-    color: whitesmoke;
+    color: #e2e8f0;
 }
 
 .contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem 1rem;
     max-width: 960px;
     margin: 0 auto;
     gap: 3rem;
@@ -19,24 +19,20 @@ body {
 form {
     width: 100%;
     max-width: 700px;
-    padding: 2rem;
-    background: transparent;
+    padding: 1.5rem 2rem 2.5rem;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
 form h1 {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
     text-align: center;
-}
-
-.name-row {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    color: #62c9ff;
 }
 
 .part {
-    flex: 1;
     display: flex;
     flex-direction: column;
     margin-bottom: 1.5rem;
@@ -51,22 +47,18 @@ input[type="text"],
 input[type="email"],
 textarea {
     background-color: #333;
-    border: none;
-    color: whitesmoke;
+    border: 1px solid #444;
+    color: #f0f0f0;
     padding: 0.75rem;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
     box-sizing: border-box;
 }
 
 textarea {
     resize: vertical;
-}
-
-input::placeholder,
-textarea::placeholder {
-    color: #aaa;
+    min-height: 120px;
 }
 
 input[type="submit"] {
@@ -77,8 +69,9 @@ input[type="submit"] {
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    margin: 0 auto;
     display: block;
+    margin: 1rem auto 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 input[type="submit"]:hover {
@@ -89,16 +82,25 @@ input[type="submit"]:hover {
 .emailcard {
     width: 100%;
     max-width: 700px;
-    padding: 1rem 2rem;
-    background: transparent;
+    padding: 1.5rem 2rem 2rem;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 .emailcard h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem;
+    color: #62c9ff;
 }
 
 .emailcard span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+}
+
+.emailcard span:last-child {
+    color: #62c9ff;
+    font-weight: bold;
 }
