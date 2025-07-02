@@ -1,0 +1,15 @@
+p {
+    background-color: #62c9ff;
+    width: 98%;
+    font-size: 24px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 78px;
+    color: whitesmoke;
+    text-align: center;
+}

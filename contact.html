@@ -9,7 +9,7 @@
 <body>
     <div class="topnav">
         <a href="index.html">Home</a>
-        <a href="#">About Us</a>
+        <a href="about.html">About Us</a>
         <a href="members.html">Members</a>
         <a href="committees.html">Committees</a>
         <a href="resources.html">Resources</a>
@@ -17,7 +17,7 @@
     </div>
 
     <main class="contact-section">
-        <form>
+        <form id="contact">
             <h1>Send Us A Message</h1>
             <div class="part">
                 <label for="name">Your Name:</label>
@@ -37,6 +37,29 @@
             </div>
             <input class="submit" type="submit" value="Submit">
         </form>
+         <script>
+        const messageForm = document.getElementById('contact');
+
+        messageForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            const alertContent = `
+                --- New Mail ---
+               Subject: ${subject}
+                ${message}
+                From: ${name}
+                Reply: ${email}
+ 
+            `;
+            alert(alertContent);
+            console.log("Contact Form Submited")
+        });
+    </script>
 
         <div class="emailcard">
             <div class="text" style="text-align: center;">
