@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+    <meta charset="UTF-8" />
+    <title>The Board</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="members.html">Members</a>
+        <a href="committees.html">Committees</a>
+        <a href="resources.html">Resources</a>
+        <a class="active" href="contact.html">Contact</a>
+    </div>
+
+    <main class="contact-section">
+        <form>
+            <h1>Send Us A Message</h1>
+            <div class="part">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="part">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="part">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="part">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+            </div>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+
+        <div class="emailcard">
+            <div class="text" style="text-align: center;">
+                <h1>Contact Email</h1>
+                <span style="color: whitesmoke;">Our Email: </span>
+                <span style="color: #2684BA;">theboard@example.com</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
