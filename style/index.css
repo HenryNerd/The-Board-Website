@@ -1,14 +1,8 @@
 body {
   margin: 0;
   background-color: #1c1e22;
-<<<<<<< HEAD
   color: #e6f1ff;
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-=======
-  color: #62c9ff;
-  font-family: sans-serif;
-  overflow-y: hidden;
->>>>>>> d3299999274bb645f9f4aa428114c301e17bcb7e
 }
 
 .hero {
