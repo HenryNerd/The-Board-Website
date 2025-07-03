@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1c1e22;
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 20px 20px 60px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin: 0 0 12px 0;
+}
+
+h2.disclaimer {
+    text-align: center;
+    font-size: 1rem;
+    color: #9ca3af;
+    margin: 0 0 30px 0;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 24px 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 32px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #62c9ff;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.member-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.member-list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #374151;
+}
+
+.member-list li:last-child {
+    border-bottom: none;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #62c9ff;
+}
+
+.footer {
+    background-color: #1e293b;
+    text-align: center;
+    padding: 20px;
+    color: #9ca3af;
+    font-size: 0.95rem;
+    border-top: 1px solid #374151;
+}
+
+a {
+    color: #62c9ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-card {
+    background-color: #1f2a3a;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease;
+    width: 260px; /* fixed consistent width */
+}
+
+.member-card:hover {
+    transform: translateY(-4px);
+}
+
+.profile-pic {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #62c9ff;
+}
+
+.member-card h4 {
+    font-size: 1.1rem;
+    color: #62c9ff;
+    margin: 10px 0 0 0;
+}
+
+.member-name {
+    font-size: 1rem;
+    color: #e2e8f0;
+}
+
+.member-year {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
